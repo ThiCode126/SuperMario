@@ -1,0 +1,170 @@
+:root{
+    --light-blue:rgb(41, 128, 185);
+    --first-blue:rgb(40, 116, 166);
+    --first-grey:rgb(234, 236, 238);
+    --hot-orange:rgb(243, 156, 18);
+    --light-violet:rgb(195, 155, 211);
+    --my-green:rgb(40, 180, 99);
+    --dark-grey:rgb(33, 47, 60);
+  }
+
+.grey-divider{
+    width: 50%;
+    height: 2px;
+    background: var(--first-grey);
+    margin: 0 auto 20px;
+}
+
+.blue-divider{
+    width: 250px;
+    height: 2px;
+    background: var(--light-blue);
+    margin: 0 auto 20px;
+}
+
+.blue-text{
+    color:var(--first-blue);
+}
+.text-center{
+    text-align: center;
+}
+
+/* body */
+
+body {
+    background-color: var(--first-grey) !important;
+    position: relative;
+}
+
+.mon-container {
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+
+.in-container {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* NAV */
+
+nav {
+    background-color: var(--first-blue);
+}
+
+nav a {
+    color: var(--first-grey) !important;
+}
+
+nav a.navbar-brand {
+    font-family: 'Chilanka', cursive;
+}
+
+nav li:hover {
+    background-color: var(--light-blue);
+    border-radius: 5px;
+}
+
+/* Accueil */
+
+#accueil  {
+    padding-top: 10px !important;
+}
+#accueil .in-container {
+    background-color: var(--light-blue) !important;
+}
+
+#accueil h1 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: var(--first-grey);
+    font-family: 'Chilanka', cursive;
+}
+
+#accueil h5 {
+    color: var(--first-grey);
+    font-family: 'Chilanka', cursive;
+}
+
+/* Portfolio */
+
+#portfolio h4 {
+    color: var(--dark-grey);
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+}
+
+#portfolio .carousel-caption {
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 20px;
+}
+
+/* Prestation */
+
+
+.presta-card {
+    padding: 15px;
+    text-align: center;
+}
+
+.presta-card .card-header {
+    color: var(--first-grey);
+    font-size: large;
+}
+
+.card-header#bleu {
+    background-color: var(--light-blue);
+}
+
+.card-header#chaud {
+    background-color: var(--hot-orange);
+}
+
+.card-header#froid {
+    background-color: var(--light-violet);
+}
+
+.card-header#urge {
+    background-color: var(--my-green);
+}
+
+/* Contact */
+
+#contact .in-container {
+    background-color: var(--first-blue);
+}
+
+#contact .row {
+    margin: 0;
+}
+
+#contact h2 {
+    text-align: center;
+    color: var(--first-grey) !important;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--first-blue);
+    
+}
+
+footer h2, footer p#thi {
+    text-align: center;
+}
+
+footer a {
+    color: var(--first-grey) !important;
+}
+
+
+/* Responsive */
+
+@media (min-width: 992px){
+
+    .mon-container {
+        padding-bottom: 30px;
+    }
+
+}
